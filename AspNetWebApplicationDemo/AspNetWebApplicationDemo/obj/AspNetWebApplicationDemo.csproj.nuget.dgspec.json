@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hannu\\Documents\\WebDemo\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj": {}
+    "F:\\Git\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hannu\\Documents\\WebDemo\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj": {
+    "F:\\Git\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hannu\\Documents\\WebDemo\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj",
+        "projectUniqueName": "F:\\Git\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj",
         "projectName": "AspNetWebApplicationDemo",
-        "projectPath": "C:\\Users\\Hannu\\Documents\\WebDemo\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj",
-        "packagesPath": "C:\\Users\\Hannu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hannu\\Documents\\WebDemo\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\obj\\",
+        "projectPath": "F:\\Git\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo.csproj",
+        "packagesPath": "C:\\Users\\Arcanum\\.nuget\\packages\\",
+        "outputPath": "F:\\Git\\WebDemo\\AspNetWebApplicationDemo\\AspNetWebApplicationDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hannu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arcanum\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,10 +60,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

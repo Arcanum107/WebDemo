@@ -10,6 +10,9 @@ using Microsoft.Extensions.Logging;
 
 namespace AspNetWebApplicationDemo
 {
+
+
+
     public class Program
     {
         public static void Main(string[] args)

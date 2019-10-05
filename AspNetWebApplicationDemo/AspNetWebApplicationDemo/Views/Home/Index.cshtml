@@ -2,7 +2,27 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="text-center">
+        <h1 class="display-4">Vittun paras Tulos    Sivu</h1>
+
+
+
+
+
+        <table class="table table-dark">
+            <tr>
+                <th>Sijoitus</th>
+                <th>Simu</th>
+                <th>Aika</th>
+            </tr>
+
+            @foreach (Tuple<int, string, string> data in ViewBag.kisadata)
+            {
+                <tr>
+                     <td>@data.Item1</td>
+                     <td>@data.Item2</td>
+                     <td>@data.Item3</td>
+                </tr>
+             }
+            </table>
+    </div>
